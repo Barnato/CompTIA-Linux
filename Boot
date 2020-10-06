@@ -1,0 +1,11 @@
+bios - checks input and output
+Boot - GRUB
+Load linux kernel
+kernel loads intial RAM disk (drivers)
+kernel - process input and output
+daemons - services
+
+Boot logs
+ - volatile (logs are gone on reboot, from kernel ringbuffer)
+ - d-message - legacy method to pull up info about kernel ringbuffer
+ 
