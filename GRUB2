@@ -1,0 +1,36 @@
+GRUB2
+
+MBR (Master Boot Record)
+- 26 style partitions (4 and one could be extended 23)
+
+Replaced with GPT (GUID Partion Table)
+
+Supports 128 partitions
+ZB
+Needs UEFI (UNIFIED Extensible Firmware Interface to boot)
+
+GPT Header
+GPT style disk
+Partition Entry Array (array list and IDs)
+
+Typically empty sectors
+core.img
+
+core.img is looking for UfI
+has to be vfat or FAT32
+
+Red Hat based distros = grub2
+
+do not directly edit /Boot
+
+grub2-editenv list
+
+see default OS
+
+modern grub2
+
+cat /etc/default/grub
+
+timeout
+disabling submenu
+etc command line options
