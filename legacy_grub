@@ -1,0 +1,31 @@
+GRUB
+
+legacy grub
+
+GRAND UNIFIED BOOT LOADER
+
+BIOS - hardware ok
+locate boot LOADER
+GRUB has image file boot.img (first 512 bytes)
+
+Stage 1 GRUB boot process
+Stage 1.5 Get core.image file loaded
+
+}Stage 2 - boot partition gets read
+
+GRUB - looking for menu.lst or grub.conf file
+Device.map file - device drive kernel location
+
+timeout=5 - how many seconds before user can hit key
+splash image - background
+choose older version of kernel
+
+One os - different kernel
+
+kernel might not work with current hardware
+but can choose older kernel
+
+grun-install [device]:
+command used to install GRUB to the specified device
+
+grub-install '(hd0)' - first drive on the system
